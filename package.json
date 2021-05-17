@@ -1,0 +1,26 @@
+{
+  "name": "reactshoppingtemplate",
+  "version": "0.0.1",
+  "description": "A react shopping template",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikiTricky2/ReactShoppingTemplate.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "template",
+    "nodejs",
+    "shopping"
+  ],
+  "author": "NikiTricky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikiTricky2/ReactShoppingTemplate/issues"
+  },
+  "homepage": "https://github.com/NikiTricky2/ReactShoppingTemplate#readme"
+}
