@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: widows-latest
+    runs-on: ubuntu-20.04
 
     strategy:
       matrix:
@@ -25,8 +25,3 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - name: Install Dependencies
-    uses: actions/setup-node@v2
-    with:
-      node-version: ${{ matrix.node-version }}
-    - run: npm install @testing-library/jest-dom @testing-library/react @testing-library/user-event react react-dom react-router-dom react-scripts
