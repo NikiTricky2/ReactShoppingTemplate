@@ -5,16 +5,16 @@ function Product(props) {
     }
     return (
         <div className="card" style={{width: '18rem'}}>
-        <div id={"id" + props.id + "car"} class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id={"id" + props.id + "car"} className="carousel carousel-dark slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
             <button style={{border: 'none', background: 'gray'}} type="button" data-bs-target={"#id" + props.id + "car"} data-bs-slide-to="0" className="active" aria-current="true"></button>
             {a.map((value, index) => {
-                return <button style={{border: 'none', background: 'gray'}} type="button" data-bs-target={"#id" + props.id + "car"} data-bs-slide-to={index}></button>
+                return <button key={value} style={{border: 'none', background: 'gray'}} type="button" data-bs-target={"#id" + props.id + "car"} data-bs-slide-to={index}></button>
             })}
         </div>
         <div className="carousel-inner">
         {props.imgSrcs.map((value, index) => {
-            return <div className="carousel-item active"> <img src={value} className="d-block w-100" alt={props.title} /> </div>
+            return <div className="carousel-item active" key={value}> <img src={value} className="d-block w-100" alt={props.title} /> </div>
         })}
         </div>
         <button className="carousel-control-prev" style={{border: 'none', background: 'none', filter: 'invert(50%)'}} type="button" data-bs-target={"#id" + props.id + "car"} data-bs-slide="prev">

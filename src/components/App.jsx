@@ -3,7 +3,7 @@ import Nav from './Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div data-testid="App">
       <Nav />
       <Main />
     </div>
