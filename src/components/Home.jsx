@@ -1,10 +1,17 @@
+import products from '../producs';
 import Product from './Product';
 
 function Home() {
+    var prods = []
+    for (const [index, product] of products.entries()) {
+        prods.push(<Product key={index} imgSrc={product.image} title={product.name} desc={product.desc} />)
+    }    
     return (
-        <div>
+        <div style={{overflowX: 'hidden'}}>
             <h1>Welcome to <span className="text-primary">ShopShop</span>!</h1>
-            <Product imgSrc="/images/keyboard.webp" title="Keyboard" desc="Adipisicing nostrud in exercitation eu tempor adipisicing. Dolor fugiat quis eiusmod eu incididunt excepteur ex id consectetur adipisicing officia excepteur. Cupidatat in consequat est nostrud non do reprehenderit adipisicing sunt deserunt irure do magna mollit." />
+            <div class="row">
+                {prods}
+            </div>
         </div>
     );
   }
