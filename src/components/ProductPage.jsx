@@ -5,7 +5,7 @@ function ProductPage(props) {
        return (
         <div>
             <img src={product.image} alt={product.name} style={{display: 'block', marginLeft: 'auto', marginRight: 'auto'}} />
-            <h1>{product.name}</h1>
+            <h1>{product.name} <span className="text-success">{product.price}$</span></h1>
             <p>{product.fullDesc}</p>
         </div>
     );

@@ -5,7 +5,7 @@ import Product from './Product';
 function Home() {
     var prods = []
     for (const [index, product] of products.entries()) {
-        prods.push(<Link to={"/product/"+index} className="text-dark" style={{textDecoration: 'none'}}><Product key={index} imgSrc={product.image} title={product.name} desc={product.desc} /></Link>)
+        prods.push(<Link to={"/product/"+index} className="text-dark" style={{textDecoration: 'none'}}><Product key={index} imgSrc={product.image} title={product.name} desc={product.desc} price={product.price} /></Link>)
     }    
     return (
         <div style={{overflowX: 'hidden'}}>
