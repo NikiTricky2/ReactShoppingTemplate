@@ -1,4 +1,5 @@
 # ReactShoppingTemplate
+![](https://img.shields.io/github/issues/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/github/workflow/status/NikiTricky2/ReactShoppingTemplate/ReactShoppingTemplate) ![](https://img.shields.io/github/last-commit/NikiTricky2/ReactShoppingTemplate)  
 A React shopping template
 
 ## How to configure
