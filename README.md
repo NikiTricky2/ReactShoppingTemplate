@@ -1,6 +1,6 @@
 # ReactShoppingTemplate
-![](https://img.shields.io/github/issues/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/github/workflow/status/NikiTricky2/ReactShoppingTemplate/ReactShoppingTemplate) ![](https://img.shields.io/github/last-commit/NikiTricky2/ReactShoppingTemplate)  
-A React shopping template
+![](https://img.shields.io/github/issues/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/github/workflow/status/NikiTricky2/ReactShoppingTemplate/ReactShoppingTemplate) ![](https://img.shields.io/github/last-commit/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/uptimerobot/status/m788262689-23b1d0b5e71de971fd2ab87f?label=website%20status)  
+A React shopping template  
 
 ## How to configure
 Here are the meaning to some files that you can change:  
@@ -19,10 +19,5 @@ Here are the meaning to some files that you can change:
 * [/src/components/Navbar.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Navbar.jsx) - The navbar. You can see examples [here](https://getbootstrap.com/docs/5.0/components/navbar/)
 * [/src/components/Main.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Main.jsx) - Here are all the pages you can add new ones here
 
-
-## Images
-### Home
-![image](https://user-images.githubusercontent.com/63540250/120007528-af548c80-bfe2-11eb-9567-3b7c73a36144.png)
-
-### Product page
-![image](https://user-images.githubusercontent.com/63540250/120007640-cb582e00-bfe2-11eb-9f5d-83ed78a86a7e.png)
+## See it in Action
+https://reactshoppingtemplate.nikitricky2.repl.co/
