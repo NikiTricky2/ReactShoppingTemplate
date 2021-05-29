@@ -1,6 +1,7 @@
 # ReactShoppingTemplate
 ![](https://img.shields.io/github/issues/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/github/workflow/status/NikiTricky2/ReactShoppingTemplate/ReactShoppingTemplate) ![](https://img.shields.io/github/last-commit/NikiTricky2/ReactShoppingTemplate) ![](https://img.shields.io/uptimerobot/status/m788262689-23b1d0b5e71de971fd2ab87f?label=website%20status)  
 A React shopping template  
+[See on Replit](https://replit.com/@NikiTricky2/ReactShoppingTemplate)  
 
 ## How to configure
 Here are the meaning to some files that you can change:  
