@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div className="container-fluid">
             <Link to="/" className="navbar-brand ">
                 <img src="/images/logo.svg" alt="" width="30" height="24" className="d-inline-block align-text-top" />
