@@ -18,7 +18,7 @@ Here are the meaning to some files that you can change:
   * `image` - The product image (all product images are stored in [/public/images](https://github.com/NikiTricky2/ReactShoppingTemplate/tree/main/public/images))
 
 * [/src/components/Navbar.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Navbar.jsx) - The navbar. You can see examples [here](https://getbootstrap.com/docs/5.0/components/navbar/)
-* [/src/components/Navbar.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Navbar.jsx) - The footer.
+* [/src/components/Footer.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Footer.jsx) - The footer.
 * [/src/components/Main.jsx](https://github.com/NikiTricky2/ReactShoppingTemplate/blob/main/src/components/Main.jsx) - Here are all the pages you can add new ones here
 
 ## See it in Action
