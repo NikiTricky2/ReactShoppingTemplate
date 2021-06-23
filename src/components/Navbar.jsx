@@ -13,7 +13,7 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
-                    <li className="nav-item">
+                    <li className="nav-item" style={{"fontWeight": "bold"}}>
                         <Link to="/" className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item">
